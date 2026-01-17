@@ -3,23 +3,12 @@
 # ==================================
 
 
-yayayayyya
 
-
-ok
-aysa
-aysa 
-aysa
-
-Test-1 
 # ----- Member 22 -------
 # Subtraction function
 def subtract(a, b):
     return a - b
  
-
-
-
 # ----- Member 1 -------
 # Add function + persistent loop
 
