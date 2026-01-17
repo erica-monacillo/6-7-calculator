@@ -7,9 +7,9 @@
 
 
 
+PAG INPUT SA MO HERE ! HAYA COMMIT AND PUSH
 
-
-
+Test-1 
 
 
 
@@ -49,7 +49,8 @@ def calculator():
             continue
 
         if choice == "1":
-            print("Result:", add(num1, num2))
+            pr
+            int("Result:", add(num1, num2))
         elif choice == "2":
             print("Result:", subtract(num1, num2))
         elif choice == "3":
