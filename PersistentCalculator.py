@@ -6,18 +6,17 @@
 yayayayyya
 
 
-
-PAG INPUT SA MO HERE ! HAYA COMMIT AND PUSH
-ISA ISA LANG WITH NAME NNYO PARA MAKITA NKO SA CMMOMMIT HISTORY
+ok
+aysa
+aysa 
+aysa
 
 Test-1 
 # ----- Member 22 -------
 # Subtraction function
 def subtract(a, b):
     return a - b
-
-
-check kuno, sa main branch 
+ 
 
 
 
