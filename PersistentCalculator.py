@@ -8,11 +8,16 @@
 
 
 PAG INPUT SA MO HERE ! HAYA COMMIT AND PUSH
+ISA ISA LANG WITH NAME NNYO PARA MAKITA NKO SA CMMOMMIT HISTORY
 
 Test-1 
+# ----- Member 2 -------
+# Subtract function
+def subtract(a, b):
+    return a - b
 
 
-
+check kuno, sa main branch 
 
 
 
