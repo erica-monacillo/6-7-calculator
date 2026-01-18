@@ -4,14 +4,15 @@
 
 # -------- Member 2 START --------
 # Subtract function
-
-
+def subtract(a,b):
+    return a - b
+# -------- Member 2 END --------
 
 # -------- Member 3 START --------
 # Multiply Function 
 def multiply(a, b):
     return a * b
-
+# -------- Member 3 END --------
 
 # -------- Member 4 START --------
 
