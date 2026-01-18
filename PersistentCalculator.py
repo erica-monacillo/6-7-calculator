@@ -15,6 +15,12 @@ def multiply(a, b):
 # -------- Member 3 END --------
 
 # -------- Member 4 START --------
+# Divide function
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
+# -------- Member 4 END --------
 
 
 
