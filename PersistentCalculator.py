@@ -5,18 +5,16 @@
 # -------- Member 2 START --------
 # Subtract function
 
-# -------- Member 2 END --------
 
 
 # -------- Member 3 START --------
-# Multiply function
-
-# -------- Member 3 END --------
+# Multiply Function 
+def multiply(a, b):
+    return a * b
 
 
 # -------- Member 4 START --------
 
-# -------- Member 4 END --------
 
 
 # -------- Member 1 START --------
