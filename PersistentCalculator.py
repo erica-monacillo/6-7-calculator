@@ -1,27 +1,33 @@
-# ==================================
+=# ==================================
 # Persistent Python Calculator
 # ==================================
 
+# -------- Member 2 START --------
+# Subtract function
+
+# -------- Member 2 END --------
 
 
-# ----- Member 22 -------
-# Subtraction function
-def subtract(a, b):
-    return a - b
- 
-# ----- Member 1 -------
+# -------- Member 3 START --------
+# Multiply function
+
+# -------- Member 3 END --------
+
+
+# -------- Member 4 START --------
+
+# -------- Member 4 END --------
+
+
+# -------- Member 1 START --------
 # Add function + persistent loop
 
 def add(a, b):
     return a + b
 
-# Add Multiplication function * 
-def multiply(a, b):
-    return a * b
-
 def calculator():
     while True:
-        print("\n--- Presistent Calculator ---")
+        print("\n--- Persistent Calculator ---")
         print("1. Add")
         print("2. Subtract")
         print("3. Multiply")
@@ -42,8 +48,7 @@ def calculator():
             continue
 
         if choice == "1":
-            pr
-            int("Result:", add(num1, num2))
+            print("Result:", add(num1, num2))
         elif choice == "2":
             print("Result:", subtract(num1, num2))
         elif choice == "3":
@@ -55,8 +60,6 @@ def calculator():
 
 calculator()
 
-hello
+# -------- Member 1 END --------
 
 
-
-,kbgccffcnknn
