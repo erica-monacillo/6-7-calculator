@@ -1,30 +1,12 @@
-# =========================================================
-# FILE: multiprocessing_gwa.py
-# MEMBER C CONTRIBUTION:
-# - Process execution logic
-# - Parallel grade processing
-# =========================================================
-
 from multiprocessing import Process, Manager
 import time
 
 def process_grade_mp(subject, grade, results):
-    """
-    Executed by each process.
-    Runs independently on a CPU core.
-    """
+
     time.sleep(0.5)
     results[subject] = grade
     print(f"[Process] {subject} processed: {grade}")
 
-
-# =========================================================
-# MEMBER D CONTRIBUTION:
-# - User input handling
-# - Shared data using Manager
-# - GWA computation
-# - Execution time measurement
-# =========================================================
 
 def main():
     subjects = int(input("Enter number of subjects: "))
@@ -32,7 +14,7 @@ def main():
 
     for i in range(subjects):
         subject = f"Subject {i+1}"
-        grade = float(input(f"Enter grade for {subject}: "))
+        grade   = float(input(f"Enter grade for {subject}: "))
         grades[subject] = grade
 
     manager = Manager()
