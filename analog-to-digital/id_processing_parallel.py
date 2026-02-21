@@ -50,3 +50,16 @@ def parallel_processing(applications):
         executor.map(printing, applications)
 
     return time.time() - start
+
+
+if __name__ == "__main__":
+    print("Running Sequential Version...")
+    sequential_time = sequential_processing(applications)
+    print(f"Sequential Time: {sequential_time:.2f} seconds")
+
+    print("\nRunning Parallel Version...")
+    parallel_time = parallel_processing(applications)
+    print(f"Parallel Time: {parallel_time:.2f} seconds")
+
+    speedup = sequential_time / parallel_time
+    print(f"\nSpeedup: {speedup:.2f}x")
